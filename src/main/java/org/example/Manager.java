@@ -3,7 +3,6 @@ package org.example;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.logging.Logger;
-
 import org.example.exceptions.NoWorkAvailableException;
 import org.example.interfaces.Working;
 

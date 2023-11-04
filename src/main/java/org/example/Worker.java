@@ -1,9 +1,8 @@
 package org.example;
 
+import java.util.logging.Logger;
 import org.example.exceptions.NoWorkAvailableException;
 import org.example.interfaces.Working;
-
-import java.util.logging.Logger;
 
 public class Worker implements Working {
   private static final Logger logger = Logger.getLogger(Worker.class.getSimpleName());

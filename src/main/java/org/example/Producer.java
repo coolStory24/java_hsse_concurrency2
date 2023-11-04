@@ -1,8 +1,7 @@
 package org.example;
 
-import org.example.interfaces.Working;
-
 import java.util.logging.Logger;
+import org.example.interfaces.Working;
 
 public class Producer implements Working {
   private static final Logger logger = Logger.getLogger(Producer.class.getSimpleName());

@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.exceptions.WorkerInterruptedException;
+
 import java.util.concurrent.CountDownLatch;
 
 public class ManagerThread implements Runnable{
@@ -19,7 +21,7 @@ public class ManagerThread implements Runnable{
         Thread.sleep(1000);
       } catch (InterruptedException e) {
         Thread.currentThread().interrupt();
-        throw new RuntimeException(e);
+        throw new WorkerInterruptedException();
       }
       latch.countDown();
     }
