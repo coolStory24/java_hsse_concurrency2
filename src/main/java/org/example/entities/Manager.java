@@ -31,7 +31,7 @@ public class Manager implements Working {
     logger.info("The working day starts!");
   }
 
-  public synchronized void stopWorking() {
+  public void stopWorking() {
     isWorking.set(false);
     logger.info("The working day ends!!!");
   }
