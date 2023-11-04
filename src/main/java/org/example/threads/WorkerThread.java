@@ -1,5 +1,6 @@
-package org.example;
+package org.example.threads;
 
+import org.example.entities.Worker;
 import org.example.exceptions.WorkerInterruptedException;
 
 public class WorkerThread implements Runnable {

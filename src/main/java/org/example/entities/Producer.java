@@ -1,6 +1,7 @@
-package org.example;
+package org.example.entities;
 
 import java.util.logging.Logger;
+
 import org.example.interfaces.Working;
 
 public class Producer implements Working {

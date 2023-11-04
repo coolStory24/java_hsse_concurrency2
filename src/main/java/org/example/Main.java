@@ -1,5 +1,12 @@
 package org.example;
 
+import org.example.entities.Manager;
+import org.example.entities.Producer;
+import org.example.entities.Worker;
+import org.example.threads.ManagerThread;
+import org.example.threads.ProducerThread;
+import org.example.threads.WorkerThread;
+
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;

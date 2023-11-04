@@ -1,5 +1,6 @@
-package org.example;
+package org.example.threads;
 
+import org.example.entities.Manager;
 import org.example.exceptions.WorkerInterruptedException;
 
 import java.util.concurrent.CountDownLatch;

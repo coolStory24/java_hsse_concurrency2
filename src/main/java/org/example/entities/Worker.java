@@ -1,6 +1,7 @@
-package org.example;
+package org.example.entities;
 
 import java.util.logging.Logger;
+
 import org.example.exceptions.NoWorkAvailableException;
 import org.example.interfaces.Working;
 
